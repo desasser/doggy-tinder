@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export default {
+ const API = {
   randomPup: () => {
     return axios.get("https://dog.ceo/api/breeds/image/random");
   },
@@ -11,3 +11,5 @@ export default {
     return axios.get("https://dog.ceo/api/breeds/list");
   }
 }
+
+export default API

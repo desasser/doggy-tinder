@@ -32,7 +32,7 @@ export default class Search extends Component {
   render() {
     return (
       <div>
-        <form onSubmit={submitForm}>
+        <form onSubmit={this.submitForm}>
           <input name="search" onChange={this.handleInputChange} value={this.state.search}/>
           <button>Show me the puppies!</button>
         </form>

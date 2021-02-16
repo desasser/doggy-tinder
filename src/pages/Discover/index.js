@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import Card from "../components/Card";
-import API from "../utils/API";
+import API from "../../utils/API";
 import "./style.css";
 
 export default class Discover extends Component {
